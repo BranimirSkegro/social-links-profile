@@ -37,7 +37,7 @@ main {
 .container {
   background-color: var(--neutral-dark-grey);
   width           : 40rem;
-  height          : 70rem;
+  height          : 60rem;
   border-radius   : 15px;
   display         : flex;
   flex-direction  : column;
@@ -52,9 +52,15 @@ main {
   height       : 10rem;
 }
 
-.basic-info h2 {
+h1 {
+  font-size: 20px;
+}
+
+.basic-info h2,
+.basic-info h1 {
   color        : var(--neutral-white);
   margin-bottom: 10px;
+  text-align   : center;
 }
 
 .basic-info h3 {
@@ -80,8 +86,6 @@ main {
   color           : var(--neutral-off-black);
   transition      : 0.3s;
 }
-
-
 
 .attribution {
   font-size : 12px;
