@@ -63,12 +63,14 @@ h1 {
   text-align   : center;
 }
 
-.basic-info h3 {
-  color: var(--primary-green);
+.basic-info h2 {
+  color    : var(--primary-green);
+  font-size: 14px;
 }
 
-.container h4 {
-  color: var(--neutral-white);
+.container h3 {
+  color    : var(--neutral-white);
+  font-size: 14px;
 }
 
 .container a {
@@ -86,6 +88,8 @@ h1 {
   color           : var(--neutral-off-black);
   transition      : 0.3s;
 }
+
+
 
 .attribution {
   font-size : 12px;
