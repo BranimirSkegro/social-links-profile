@@ -89,19 +89,6 @@ h1 {
   transition      : 0.3s;
 }
 
-
-
-.attribution {
-  font-size : 12px;
-  text-align: center;
-  margin    : 2rem 0;
-  color: var(--neutral-white);
-}
-
-.attribution a {
-  color: var(--primary-green);
-}
-
 @media only screen and (max-width: 510px) {
   .container {
     margin       : 0 30px;
